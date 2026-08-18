@@ -1,0 +1,39 @@
+site:
+  title: Desktop Tooling Docs
+  url: https://desktop-tooling.github.io/docs
+  start_page: desktop-tooling::index.adoc
+  keys:
+    header_logo: logo.svg
+    site_home_url: https://desktop-tooling.github.io
+    site_home_label: Desktop Tooling home
+    header_doc_title: Desktop Tooling Docs
+
+antora:
+  extensions:
+    - require: "@antora/lunr-extension"
+      index_latest_only: true
+    - require: "@antora-supplemental/antora-search-chat"
+    - require: "@antora-supplemental/unversioned-component-urls"
+
+content:
+  sources:
+    - url: ./
+      branches: HEAD
+      start_path: docs
+
+ui:
+  bundle:
+    url: https://github.com/antora-supplemental/valentus-theme/releases/download/v2/ui-bundle.zip
+    snapshot: true
+  supplemental_files: ./supplemental-ui
+
+asciidoc:
+  attributes:
+    stem: latexmath
+    experimental: ''
+    idprefix: ''
+    idseparator: '-'
+    page-pagination: ''
+
+output:
+  dir: build/site

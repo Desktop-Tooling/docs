@@ -1,0 +1,52 @@
+= Division of labor
+:description: What belongs in Desktop Tooling versus HCI Nerdz, OpenShellOrg, and Dev-Centr.
+
+== Rule of thumb
+
+[cols="1,1,1,1"]
+|===
+| Desktop Tooling | HCI Nerdz | OpenShellOrg | Dev-Centr
+
+| How should the *OS desktop* behave?
+| How should humans *see and manipulate* systems?
+| How should CLIs and shells *speak and compose*?
+| How should *developer machines* be configured?
+
+| Explorer, shell extensions, theming, launchers, windowing
+| Surfaces, themes-as-contracts, dialogs, attention, product representation
+| Flags, pipes, entrypoints, help budgets, SOS
+| Toolchains, package hubs, agent rules, environment orchestration
+|===
+
+Cross-link sibling orgs. Do not absorb them.
+
+== Boundary examples
+
+[cols="1,1"]
+|===
+| Topic | Home
+
+| SVG thumbnail handler in Explorer
+| Desktop Tooling (`svgesus`)
+
+| Custom dialog *pattern* for Electron (honest surfaces)
+| HCI Nerdz (`electron-custom-dialog`)
+
+| Progressive CLI help (Prohelp)
+| OpenShellOrg
+
+| “Open with Cursor” Explorer verb for developers
+| Dev-Centr
+
+| Activity map / window launcher
+| Desktop Tooling (`activity-map-shell`)
+
+| Context rails / pipeline composer experiments
+| HCI Nerdz
+|===
+
+== Related
+
+* HCI: link:https://hci-nerdz.github.io/[HCI Nerdz]
+* Shells: link:https://openshellorg.github.io/[OpenShellOrg]
+* Developer machines: link:https://devcentr.org/[Dev-Centr]

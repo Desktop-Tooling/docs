@@ -1,0 +1,26 @@
+= Desktop Tooling docs
+:toc:
+
+Antora documentation hub for link:https://github.com/Desktop-Tooling[Desktop-Tooling].
+
+* Hub: https://desktop-tooling.github.io/docs/
+* Site: https://desktop-tooling.github.io
+* Changelog: link:CHANGELOG.adoc[CHANGELOG.adoc]
+
+== Built With
+
+* Docs — Antora, AsciiDoc (`stem: latexmath`)
+* UI — Valentus v2, Lunr, antora-search-chat
+* Host — GitHub Pages (no Cloudflare)
+
+== Local
+
+[source,shell]
+----
+pnpm install
+pnpm docs:local
+----
+
+== License
+
+Unless a nested file says otherwise, docs source is MIT.

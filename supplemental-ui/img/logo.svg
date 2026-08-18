@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Desktop Tooling">
+  <g transform="translate(8 8)">
+    <g fill="none" stroke="#C9D4E0" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M78 78
+               C62 62 62 38 80 30
+               C94 24 108 32 114 44
+               L160 90
+               C168 82 184 82 192 90
+               C200 98 200 114 192 122
+               L170 144
+               C162 152 146 152 138 144
+               L92 98
+               C80 104 68 94 78 78 Z"/>
+    </g>
+    <rect x="100" y="110" width="108" height="86" rx="10" fill="#243140" stroke="#E8A838" stroke-width="8"/>
+    <rect x="100" y="110" width="108" height="22" rx="10" fill="#E8A838"/>
+    <rect x="100" y="122" width="108" height="10" fill="#E8A838"/>
+    <circle cx="116" cy="121" r="4.5" fill="#101820"/>
+    <circle cx="130" cy="121" r="4.5" fill="#101820" fill-opacity="0.55"/>
+    <circle cx="144" cy="121" r="4.5" fill="#101820" fill-opacity="0.35"/>
+    <rect x="114" y="144" width="80" height="8" rx="3" fill="#7EC8E3" fill-opacity="0.45"/>
+    <rect x="114" y="160" width="52" height="8" rx="3" fill="#7EC8E3" fill-opacity="0.28"/>
+  </g>
+</svg>

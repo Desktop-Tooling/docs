@@ -1,0 +1,12 @@
+/* Desktop Tooling brand overlay on Valentus */
+:root,
+html {
+  --dt-steel: #101820;
+  --dt-amber: #e8a838;
+  --dt-glass: #7ec8e3;
+}
+
+.navbar-brand img,
+.navbar-logo {
+  max-height: 2rem;
+}

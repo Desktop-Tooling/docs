@@ -1,0 +1,6 @@
+= Changelog
+
+== 2026-08-18 — Organization bootstrap
+
+* Antora hub with Valentus v2, Lunr, search-chat, KaTeX, division of labor, principles, and catalog.
+* link:changelog-details/2026-08-18%20-%20organization-bootstrap.adoc[Details]

@@ -1,0 +1,27 @@
+= Catalog
+:description: Repositories currently under Desktop Tooling.
+
+Product docs stay next to the code (`docs/` in each repo) and wire into this hub when they have an Antora component. Until then, the GitHub repositories are the source of truth.
+
+[cols="1,2"]
+|===
+| Repository | What it is
+
+| link:https://github.com/Desktop-Tooling/activity-map-shell[`activity-map-shell`]
+| 2D process map with blocks, a launcher, and window thumbnails
+
+| link:https://github.com/Desktop-Tooling/svgesus[`svgesus`]
+| Windows SVG thumbnail shell extension (D + NanoSVG)
+
+| link:https://github.com/Desktop-Tooling/explorer-refresh-thumbcache[`explorer-refresh-thumbcache`]
+| Explorer context menu to refresh the thumbnail cache
+
+| link:https://github.com/Desktop-Tooling/Windows-Theme-Autochanger[`Windows-Theme-Autochanger`]
+| Dark mode auto-changer for Windows 11 at night
+
+| link:https://github.com/Desktop-Tooling/nikon-camera-bridge[`nikon-camera-bridge`]
+| Nikon USB webcam as a virtual camera
+
+| link:https://github.com/Desktop-Tooling/Desktop-Assistant-AI[`Desktop-Assistant-AI`]
+| Desktop helper when the next click is unclear
+|===

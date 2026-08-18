@@ -1,0 +1,4 @@
+{
+  "markdown": {},
+  "excludes": ["**/node_modules", "**/build", "**/pnpm-lock.yaml"]
+}

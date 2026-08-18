@@ -1,0 +1,5 @@
+* xref:index.adoc[Home]
+* xref:division-of-labor.adoc[Division of labor]
+* xref:principles.adoc[Principles]
+* xref:catalog.adoc[Catalog]
+* xref:changelog.adoc[Changelog]

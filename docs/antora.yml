@@ -1,0 +1,6 @@
+name: desktop-tooling
+title: Desktop Tooling
+version: ~
+start_page: ROOT:index.adoc
+nav:
+  - modules/ROOT/nav.adoc

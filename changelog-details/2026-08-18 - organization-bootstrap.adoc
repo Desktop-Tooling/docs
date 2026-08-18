@@ -1,0 +1,6 @@
+= Organization bootstrap
+:date: 2026-08-18
+
+Public Antora documentation hub for Desktop Tooling. Valentus v2 UI, Lunr plus antora-search-chat, KaTeX math on every page, and starting topics for division of labor, principles, and the first catalog.
+
+Deployed as the GitHub Pages project site at `desktop-tooling.github.io/docs`.

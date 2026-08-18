@@ -1,0 +1,23 @@
+= Desktop Tooling Docs
+:description: Documentation hub for Desktop Tooling — OS-level desktop utilities.
+:page-role: home
+
+Welcome to the Desktop Tooling documentation hub.
+
+*xref:division-of-labor.adoc[Division of labor]* · *xref:principles.adoc[Principles]* · *xref:catalog.adoc[Catalog]* · *xref:changelog.adoc[Changelog]*
+
+== Mission
+
+Ship *OS-level desktop utilities*: Explorer, shell extensions, theming, launchers, and windowing. Leave interaction-design research to link:https://hci-nerdz.github.io/[HCI Nerdz], shells and CLIs to link:https://openshellorg.github.io/[OpenShellOrg], and developer-machine tooling to link:https://devcentr.org/[Dev-Centr].
+
+== Site
+
+* Public site: link:https://desktop-tooling.github.io/[desktop-tooling.github.io]
+* News: link:https://desktop-tooling.github.io/news/[News]
+* GitHub: link:https://github.com/Desktop-Tooling[Desktop-Tooling]
+
+== Theme
+
+This docs site uses the link:https://github.com/antora-supplemental/valentus-theme[Valentus] Antora UI bundle (v2) with Desktop Tooling branding overlays.
+
+Math is enabled (`stem: latexmath`) even when a page has no formulas. Example: stem:[W_{\text{thumb}}] for a window thumbnail width.

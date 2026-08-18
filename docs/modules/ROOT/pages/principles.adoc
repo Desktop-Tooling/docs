@@ -1,0 +1,21 @@
+= Principles
+:description: What Desktop Tooling ships and what it refuses.
+
+== In
+
+* Explorer and file-manager verbs that the OS forgot
+* Shell extensions (thumbnails, context menus)
+* Windowing, launchers, and process maps
+* Desktop theming that follows the clock, not a settings hunt
+* Hardware bridges that show up as ordinary desktop devices
+
+== Out
+
+* Terminals, shells, and CLI certification — OpenShellOrg
+* Interaction-design literature and prototype demos — HCI Nerdz
+* Toolchain and developer-machine catalogs — Dev-Centr
+* Language runtime libraries (D GUI toolkits) — dlang-supplemental
+
+== Hosting
+
+Public site and docs live on GitHub Pages. No Cloudflare in front of `github.io`.
