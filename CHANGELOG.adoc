@@ -3,7 +3,6 @@
 == Unreleased
 
 * Fix Valentus v2 theme load: vendor full `head-meta.hbs` (layered CSS, FOUC hold, dark mode) and map Desktop Tooling accent tokens in `site-brand.css`.
-* Document Cloud Agent preference: open PRs ready for review (no drafts) in `AGENTS.md`.
 
 == 2026-08-18 — Organization bootstrap
 

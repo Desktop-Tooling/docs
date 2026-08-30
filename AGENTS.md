@@ -8,4 +8,3 @@
 - Math: `stem: latexmath` + `supplemental-ui/js/site-math.js`
 - Product `docs/` folders wire into this playbook when they have `antora.yml`
 - Machine facts: `$CODE_ROOT/MEMORIES.md` only
-- PRs: never open as draft — always create/update as ready for review (`draft: false`)
