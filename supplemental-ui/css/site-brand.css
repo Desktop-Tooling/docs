@@ -1,12 +1,28 @@
-/* Desktop Tooling brand overlay on Valentus */
-:root,
-html {
+/*
+ * Desktop Tooling brand overlay for valentus-theme 2.x.
+ * Layout and fonts ship in the bundle; this file nudges accent tokens and logo polish.
+ *
+ * Palette: steel #101820, amber #e8a838, glass #7ec8e3
+ */
+
+:root {
   --dt-steel: #101820;
   --dt-amber: #e8a838;
   --dt-glass: #7ec8e3;
+
+  --adt-accent: var(--dt-amber);
+  --adt-accent-hover: #d4922a;
+  --adt-accent-soft: rgba(232, 168, 56, 0.14);
+}
+
+html.dark-theme {
+  --adt-accent: var(--dt-glass);
+  --adt-accent-hover: #9dd8ef;
+  --adt-accent-soft: rgba(126, 200, 227, 0.14);
 }
 
 .navbar-brand img,
-.navbar-logo {
+.navbar-logo,
+.adt-header-logo {
   max-height: 2rem;
 }

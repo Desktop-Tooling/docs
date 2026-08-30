@@ -1,5 +1,9 @@
 = Changelog
 
+== Unreleased
+
+* Fix Valentus v2 theme load: vendor full `head-meta.hbs` (layered CSS, FOUC hold, dark mode) and map Desktop Tooling accent tokens in `site-brand.css`.
+
 == 2026-08-18 — Organization bootstrap
 
 * Antora hub with Valentus v2, Lunr, search-chat, KaTeX, division of labor, principles, and catalog.
