@@ -1,0 +1,56 @@
+= spatial-browser
+:description: Chromium fork for spatial web windows — workspace grouping and parent-relative palette windows.
+
+link:https://github.com/Desktop-Tooling/spatial-browser[spatial-browser] is a Desktop Tooling Chromium fork that implements browser-level support for link:https://hci-nerdz.github.io/docs/hci-nerdz/spatial-web-windows.html[spatial web windows].
+
+== Why a fork
+
+Stock browsers lack:
+
+* Parent-relative always-on-top for same-origin palette windows
+* Logical workspace grouping (viewport + palettes) on the OS taskbar
+* Reduced background throttling among workspace peer windows
+
+Web apps can partially compensate with Document PiP and chromeless popups; professional multi-window workflows need browser cooperation.
+
+== Patch roadmap
+
+[cols="1,2,1"]
+|===
+| Patch | Goal | Status
+
+| P1 — App window group
+| Shared workspace ID; Alt+Tab grouping
+| Stub / in progress
+
+| P2 — Parent-relative always-on-top
+| `parenttop` feature on `window.open`
+| Stub / in progress
+
+| P3 — Reduced peer throttling
+| Palettes stay live when viewport occluded
+| Planned
+
+| P4 — Tab strip decoupling
+| PWA multi-window without tab-strip coupling
+| Exploratory
+|===
+
+== Build
+
+See the repository link:https://github.com/Desktop-Tooling/spatial-browser/blob/main/README.adoc[README] for `depot_tools`, disk requirements, and `scripts/setup.ps1`.
+
+== Demo detection
+
+The link:https://hci-nerdz.github.io/demos/spatial-web-windows/[HCI Nerdz demo desk] checks:
+
+* `window.spatialBrowser` — `{ workspaceGroup, parentRelativeTop }`
+* User-agent token `SpatialBrowser/` on branded builds
+
+Load link:https://github.com/Desktop-Tooling/spatial-browser/blob/main/demo/spatial-browser-stub.js[`demo/spatial-browser-stub.js`] locally to simulate fork APIs during development.
+
+== Related
+
+* HCI pattern: link:https://hci-nerdz.github.io/docs/hci-nerdz/spatial-web-windows.html[Spatial web windows]
+* Developers: link:https://docs.devcentr.org/dev-centr/latest/architecture/ui-heavy-web-apps.html#spatial-windows-and-lite-palettes[Dev-Centr architecture]
+* xref:division-of-labor.adoc[Division of labor]

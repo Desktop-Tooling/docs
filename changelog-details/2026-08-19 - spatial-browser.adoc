@@ -1,0 +1,4 @@
+= spatial-browser fork scaffold
+:date: 2026-08-19
+
+Chromium fork repo for spatial web windows: P1 workspace group, P2 parent-relative always-on-top, build scripts, and docs hub topic.

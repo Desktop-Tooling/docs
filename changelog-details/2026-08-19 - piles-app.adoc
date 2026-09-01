@@ -1,0 +1,4 @@
+= Piles daily-driver
+:date: 2026-08-19
+
+Desktop Tooling owns the Piles mail client (IMAP, cache, Avalonia). HCI Nerdz keeps the UX pattern and demos.

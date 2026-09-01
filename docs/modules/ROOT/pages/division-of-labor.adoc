@@ -41,8 +41,23 @@ Cross-link sibling orgs. Do not absorb them.
 | Activity map / window launcher
 | Desktop Tooling (`activity-map-shell`)
 
+| Piles canvas/sentiment inbox *pattern* and demos
+| HCI Nerdz (`piles`)
+
+| Piles installed mail client (IMAP, SQLite, Avalonia)
+| Desktop Tooling (`piles`)
+
 | Context rails / pipeline composer experiments
 | HCI Nerdz
+
+| Spatial web windows *interaction pattern* and demo
+| HCI Nerdz
+
+| Chromium fork for browser windowing (`spatial-browser`)
+| Desktop Tooling
+
+| Intent routing for UI-heavy / WASM web apps
+| Dev-Centr
 |===
 
 == Related

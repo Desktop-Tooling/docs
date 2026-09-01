@@ -4,6 +4,16 @@
 
 * Fix Valentus v2 theme load: vendor full `head-meta.hbs` (layered CSS, FOUC hold, dark mode) and map Desktop Tooling accent tokens in `site-brand.css`.
 
+== 2026-08-19 — spatial-browser fork
+
+* Chromium fork scaffold for spatial web windows (workspace grouping, parent-relative top).
+* link:changelog-details/2026-08-19%20-%20spatial-browser.adoc[Details]
+
+== 2026-08-19 — Piles daily-driver
+
+* Division of labor: Piles installed client lives here; HCI Nerdz keeps the canvas/sentiment pattern.
+* link:changelog-details/2026-08-19%20-%20piles-app.adoc[Details]
+
 == 2026-08-18 — Organization bootstrap
 
 * Antora hub with Valentus v2, Lunr, search-chat, KaTeX, division of labor, principles, and catalog.
