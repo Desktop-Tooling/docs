@@ -14,6 +14,7 @@ antora:
       index_latest_only: true
     - require: "@antora-supplemental/antora-search-chat"
     - require: "@antora-supplemental/unversioned-component-urls"
+    - '@antora-supplemental/build-stack'
 
 content:
   sources:
