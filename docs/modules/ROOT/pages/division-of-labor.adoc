@@ -58,6 +58,18 @@ Cross-link sibling orgs. Do not absorb them.
 
 | Intent routing for UI-heavy / WASM web apps
 | Dev-Centr
+
+| Tool-run bus, wrappers, shell session ids, compile diagnostics protocol
+| OpenShellOrg (link:https://opensh.org/docs/shell-architecture/tool-run-diagnostics.html[tool-run diagnostics])
+
+| Programmer-POV diagnostic wording / channel-switcher patterns
+| HCI Nerdz
+
+| OS desktop flash, tray, or focus helpers when a tool-run index lives outside an IDE
+| Desktop Tooling (helpers only — do not redefine the bus)
+
+| Agentic harness embedding of tool-run widgets (`embed` / timeline)
+| Dev-Centr (consumes OpenShellOrg library contract)
 |===
 
 == Related

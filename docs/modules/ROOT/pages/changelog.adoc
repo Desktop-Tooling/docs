@@ -1,6 +1,10 @@
 = Changelog
 :description: Timeline of functional changes to the Desktop Tooling docs hub.
 
+== 2026-09-02 — Tool-run stakeholder boundary
+
+* xref:division-of-labor.adoc[Division of labor]: OpenShellOrg owns Tool Run bus; HCI owns programmer-POV patterns; Desktop Tooling may supply OS flash/tray helpers only; Dev-Centr embeds the library in agent harnesses.
+
 == 2026-08-18 — Organization bootstrap
 
 * Public Antora hub with Valentus v2, Lunr, search-chat, and KaTeX.
