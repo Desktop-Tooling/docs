@@ -59,6 +59,9 @@ Cross-link sibling orgs. Do not absorb them.
 | Intent routing for UI-heavy / WASM web apps
 | Dev-Centr
 
+| Open Provider Registry / machine-local model discovery
+| Dev-Centr (`uniprovider` — OPR protocol; not a Desktop Tooling shell extension)
+
 | Tool-run bus, wrappers, shell session ids, compile diagnostics protocol
 | OpenShellOrg (link:https://opensh.org/docs/shell-architecture/tool-run-diagnostics.html[tool-run diagnostics])
 
