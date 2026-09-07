@@ -14,6 +14,10 @@ Audience:: {page-audience}
 ****
 endif::[]
 
+== 2026-09-07 — Brand mark redraw
+
+* Synced the docs header and component image to the canonical two-pane desktop window and hex-drive socket glyph.
+
 == 2026-09-07 — Component catalog
 
 * Renamed the portal component to Home and moved the complete eight-component catalog onto its landing page.

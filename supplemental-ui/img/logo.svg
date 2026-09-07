@@ -1,17 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Desktop Tooling">
-  <g transform="translate(8 8)">
-    <!-- tool (diagonal to avoid awkward silhouettes) -->
-    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M120 180 L168 132" stroke="#C9D4E0" stroke-width="16"/>
-      <path d="M160 140 L188 112" stroke="#E8A838" stroke-width="10"/>
-    </g>
-    <rect x="100" y="110" width="108" height="86" rx="10" fill="#243140" stroke="#E8A838" stroke-width="8"/>
-    <rect x="100" y="110" width="108" height="22" rx="10" fill="#E8A838"/>
-    <rect x="100" y="122" width="108" height="10" fill="#E8A838"/>
-    <circle cx="116" cy="121" r="4.5" fill="#101820"/>
-    <circle cx="130" cy="121" r="4.5" fill="#101820" fill-opacity="0.55"/>
-    <circle cx="144" cy="121" r="4.5" fill="#101820" fill-opacity="0.35"/>
-    <rect x="114" y="144" width="80" height="8" rx="3" fill="#7EC8E3" fill-opacity="0.45"/>
-    <rect x="114" y="160" width="52" height="8" rx="3" fill="#7EC8E3" fill-opacity="0.28"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Desktop Tooling glyph - isolated mark, transparent background, no app tile.
+  A two-pane desktop window (title bar + navigation pane + content pane) with a
+  hex-drive socket set into the content pane: the workspace, and the tool that
+  drives it. Single amber value so the mark holds on light and dark surfaces.
+  Geometry is shared with desktop-tooling-mark.svg and desktop-tooling-glyph-mono.svg.
+-->
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 120 100"
+     width="120" height="100"
+     role="img"
+     aria-label="Desktop Tooling">
+  <title>Desktop Tooling</title>
+  <desc>A two-pane desktop window with a hex-drive socket set into its content pane.</desc>
+  <g fill="#E8A838">
+    <!-- window frame -->
+    <rect x="9.25" y="9.25" width="101.5" height="81.5" rx="8" fill="none" stroke="#E8A838" stroke-width="8.5"/>
+    <!-- title bar -->
+    <path d="M 5 25.5 V 17.25 A 12.25 12.25 0 0 1 17.25 5 H 102.75 A 12.25 12.25 0 0 1 115 17.25 V 25.5 Z"/>
+    <!-- pane divider -->
+    <rect x="35" y="25.5" width="6" height="61"/>
+    <!-- hex-drive socket: relieved outer collar, broached bore -->
+    <path fill-rule="evenodd" d="M 96.74 54.25 A 3.5 3.5 0 0 1 96.74 57.75 L 86.76 75.035 A 3.5 3.5 0 0 1 83.729 76.785 L 63.771 76.785 A 3.5 3.5 0 0 1 60.74 75.035 L 50.76 57.75 A 3.5 3.5 0 0 1 50.76 54.25 L 60.74 36.965 A 3.5 3.5 0 0 1 63.771 35.215 L 83.729 35.215 A 3.5 3.5 0 0 1 86.76 36.965 Z M 85.817 55.25 A 1.5 1.5 0 0 1 85.817 56.75 L 80.433 66.076 A 1.5 1.5 0 0 1 79.134 66.826 L 68.366 66.826 A 1.5 1.5 0 0 1 67.067 66.076 L 61.683 56.75 A 1.5 1.5 0 0 1 61.683 55.25 L 67.067 45.924 A 1.5 1.5 0 0 1 68.366 45.174 L 79.134 45.174 A 1.5 1.5 0 0 1 80.433 45.924 Z"/>
   </g>
 </svg>
