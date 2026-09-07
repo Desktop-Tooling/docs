@@ -2,6 +2,8 @@
 
 == Unreleased
 
+* Restructure the docs as a curated eight-component Antora site, with Home as the portal and each catalog project as a first-class component.
+* Apply the current Facto defaults: indexified URLs, site navigation tree, nav typology, Kroki, page context, Lunr, math, and build-stack.
 * Fix Valentus v2 theme load: vendor full `head-meta.hbs` (layered CSS, FOUC hold, dark mode) and map Desktop Tooling accent tokens in `site-brand.css`.
 
 == 2026-09-07 — Thumbdrive Multiboot docs

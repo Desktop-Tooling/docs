@@ -1,5 +1,18 @@
 = Principles
 :description: What Desktop Tooling ships and what it refuses.
+:page-aliases: desktop-tooling:ROOT:principles.adoc
+:page-audience: Contributors evaluating the Desktop Tooling project scope
+:page-usage-context: Organization principles and scope reference
+:page-orig-author: Ryan Johnson
+:page-last-author: Cursor agent on behalf of Ryan Johnson
+:page-last-edited: 2026-09-07
+
+ifndef::page-context-active[]
+[.page-context.page-context-lead]
+****
+Audience:: {page-audience}
+****
+endif::[]
 
 == In
 
@@ -19,3 +32,12 @@
 == Hosting
 
 Public site and docs live on GitHub Pages. No Cloudflare in front of `github.io`.
+
+ifndef::page-context-active[]
+[.page-context.page-context-footer]
+****
+Original author:: {page-orig-author}
+Latest contributor:: {page-last-author}
+Last updated:: {page-last-edited}
+****
+endif::[]

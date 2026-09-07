@@ -1,12 +1,18 @@
 site:
   title: Desktop Tooling Docs (local)
   url: http://localhost:8080
-  start_page: desktop-tooling::index.adoc
+  start_page: home::index.adoc
   keys:
     header_logo: logo.svg
     site_home_url: https://desktop-tooling.github.io
     site_home_label: Desktop Tooling home
     header_doc_title: Desktop Tooling Docs
+    site_nav_tree: 'true'
+    site_nav_tree_include: home,activity-map-shell,thumbelina,svgesus,explorer-refresh-thumbcache,windows-theme-autochanger,nikon-camera-bridge,desktop-assistant-ai
+    site_nav_tree_order: home,activity-map-shell,thumbelina,svgesus,explorer-refresh-thumbcache,windows-theme-autochanger,nikon-camera-bridge,desktop-assistant-ai
+
+urls:
+  html_extension_style: indexify
 
 antora:
   extensions:
@@ -14,6 +20,11 @@ antora:
       index_latest_only: true
     - require: "@antora-supplemental/antora-search-chat"
     - require: "@antora-supplemental/unversioned-component-urls"
+    - require: "@antora-supplemental/site-nav-tree"
+      include: [home, activity-map-shell, thumbelina, svgesus, explorer-refresh-thumbcache, windows-theme-autochanger, nikon-camera-bridge, desktop-assistant-ai]
+      order: [home, activity-map-shell, thumbelina, svgesus, explorer-refresh-thumbcache, windows-theme-autochanger, nikon-camera-bridge, desktop-assistant-ai]
+    - require: "@antora-supplemental/nav-typology"
+    - require: "@antora-supplemental/nav-typology-diataxis"
     - '@antora-supplemental/build-stack'
 
 content:
@@ -21,7 +32,25 @@ content:
     - url: ./
       branches: HEAD
       start_path: docs
+    - url: ../activity-map-shell
+      branches: HEAD
+      start_path: docs
     - url: ../Thumbdrive-Multiboot
+      branches: HEAD
+      start_path: docs
+    - url: ../svgesus
+      branches: HEAD
+      start_path: docs
+    - url: ../explorer-refresh-thumbcache
+      branches: HEAD
+      start_path: docs
+    - url: ../Windows-Theme-Autochanger
+      branches: HEAD
+      start_path: docs
+    - url: ../nikon-camera-bridge
+      branches: HEAD
+      start_path: docs
+    - url: ../Desktop-Assistant-AI
       branches: HEAD
       start_path: docs
 
@@ -32,8 +61,14 @@ ui:
   supplemental_files: ./supplemental-ui
 
 asciidoc:
+  extensions:
+    - asciidoctor-kroki
+    - "@antora-supplemental/page-context"
   attributes:
     stem: latexmath
+    kroki-server-url: https://kroki.io
+    kroki-fetch-diagram: true
+    page-context-active: ''
     experimental: ''
     idprefix: ''
     idseparator: '-'

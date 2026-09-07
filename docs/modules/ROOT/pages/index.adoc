@@ -1,23 +1,50 @@
-= Desktop Tooling Docs
-:description: Documentation hub for Desktop Tooling — OS-level desktop utilities.
+= Home
+:description: Portal for Desktop Tooling projects and documentation.
 :page-role: home
+:page-aliases: desktop-tooling:ROOT:index.adoc, desktop-tooling:ROOT:catalog.adoc
+:page-audience: People evaluating or using Desktop Tooling projects
+:page-usage-context: Portal and complete product documentation catalog
+:page-orig-author: Ryan Johnson
+:page-last-author: Cursor agent on behalf of Ryan Johnson
+:page-last-edited: 2026-09-07
 
-Welcome to the Desktop Tooling documentation hub.
+ifndef::page-context-active[]
+[.page-context.page-context-lead]
+****
+Audience:: {page-audience}
+****
+endif::[]
 
-*xref:division-of-labor.adoc[Division of labor]* · *xref:principles.adoc[Principles]* · *xref:catalog.adoc[Catalog]* · *xref:changelog.adoc[Changelog]*
+Desktop Tooling builds focused utilities that improve everyday Windows desktop work: managing windows and processes, extending File Explorer, following a theme schedule, bridging hardware, and providing guided assistance.
 
-== Mission
+== Projects
 
-Ship *OS-level desktop utilities*: Explorer, shell extensions, theming, launchers, and windowing. Leave interaction-design research to link:https://hci-nerdz.github.io/[HCI Nerdz], shells and CLIs to link:https://openshellorg.github.io/[OpenShellOrg], and developer-machine tooling to link:https://devcentr.org/[Dev-Centr].
+* xref:home::index.adoc[Home] — This portal and catalog for the complete Desktop Tooling documentation set.
+* xref:activity-map-shell::index.adoc[Activity Map Shell] — A Windows activity map for arranging process and window blocks, launching apps, and returning to attached windows.
+* xref:thumbelina::index.adoc[Thumbelina] — A multiboot USB manager for live ISOs, thin Btrfs installations, or both on one drive.
+* xref:svgesus::index.adoc[SVGesus] — A Windows shell extension that renders SVG files as File Explorer thumbnails.
+* xref:explorer-refresh-thumbcache::index.adoc[Explorer Refresh Thumbcache] — A File Explorer context-menu command that clears thumbnail caches and restarts Explorer.
+* xref:windows-theme-autochanger::index.adoc[Windows Theme Autochanger] — A Windows background service and tray app that switches light and dark themes on a schedule.
+* xref:nikon-camera-bridge::index.adoc[Nikon Camera Bridge] — A Windows-first bridge toward Nikon USB video, a virtual camera, and HTTP camera controls.
+* xref:desktop-assistant-ai::index.adoc[Desktop Assistant AI] — An experimental Windows assistant for coding and desktop guidance using screenshots, speech, and AI models.
 
-== Site
+== Scope
+
+Desktop Tooling owns OS-level desktop utilities. Interaction-design research belongs to link:https://hci-nerdz.github.io/[HCI Nerdz], shells and command-line composition belong to link:https://openshellorg.github.io/[OpenShellOrg], and developer-machine tooling belongs to link:https://devcentr.org/[Dev-Centr].
+
+For the detailed boundary, read xref:division-of-labor.adoc[Division of labor] and xref:principles.adoc[Principles].
+
+== Related sites
 
 * Public site: link:https://desktop-tooling.github.io/[desktop-tooling.github.io]
 * News: link:https://desktop-tooling.github.io/news/[News]
 * GitHub: link:https://github.com/Desktop-Tooling[Desktop-Tooling]
 
-== Theme
-
-This docs site uses the link:https://github.com/antora-supplemental/valentus-theme[Valentus] Antora UI bundle (v2) with Desktop Tooling branding overlays.
-
-Math is enabled (`stem: latexmath`) even when a page has no formulas. Example: stem:[W_{\text{thumb}}] for a window thumbnail width.
+ifndef::page-context-active[]
+[.page-context.page-context-footer]
+****
+Original author:: {page-orig-author}
+Latest contributor:: {page-last-author}
+Last updated:: {page-last-edited}
+****
+endif::[]

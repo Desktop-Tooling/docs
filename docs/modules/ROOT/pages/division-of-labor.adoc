@@ -1,5 +1,18 @@
 = Division of labor
 :description: What belongs in Desktop Tooling versus HCI Nerdz, OpenShellOrg, and Dev-Centr.
+:page-aliases: desktop-tooling:ROOT:division-of-labor.adoc
+:page-audience: Contributors deciding where desktop-related work belongs
+:page-usage-context: Organization boundary reference
+:page-orig-author: Ryan Johnson
+:page-last-author: Cursor agent on behalf of Ryan Johnson
+:page-last-edited: 2026-09-07
+
+ifndef::page-context-active[]
+[.page-context.page-context-lead]
+****
+Audience:: {page-audience}
+****
+endif::[]
 
 == Rule of thumb
 
@@ -80,3 +93,12 @@ Cross-link sibling orgs. Do not absorb them.
 * HCI: link:https://hci-nerdz.github.io/[HCI Nerdz]
 * Shells: link:https://openshellorg.github.io/[OpenShellOrg]
 * Developer machines: link:https://devcentr.org/[Dev-Centr]
+
+ifndef::page-context-active[]
+[.page-context.page-context-footer]
+****
+Original author:: {page-orig-author}
+Latest contributor:: {page-last-author}
+Last updated:: {page-last-edited}
+****
+endif::[]

@@ -1,5 +1,18 @@
 = spatial-browser
 :description: Chromium fork for spatial web windows — workspace grouping and parent-relative palette windows.
+:page-aliases: desktop-tooling:ROOT:spatial-browser.adoc
+:page-audience: Readers evaluating the spatial-browser Chromium fork
+:page-usage-context: Product direction and patch-roadmap explanation
+:page-orig-author: Ryan Johnson
+:page-last-author: Cursor agent on behalf of Ryan Johnson
+:page-last-edited: 2026-09-07
+
+ifndef::page-context-active[]
+[.page-context.page-context-lead]
+****
+Audience:: {page-audience}
+****
+endif::[]
 
 link:https://github.com/Desktop-Tooling/spatial-browser[spatial-browser] is a Desktop Tooling Chromium fork that implements browser-level support for link:https://hci-nerdz.github.io/docs/hci-nerdz/spatial-web-windows.html[spatial web windows].
 
@@ -54,3 +67,12 @@ Load link:https://github.com/Desktop-Tooling/spatial-browser/blob/main/demo/spat
 * HCI pattern: link:https://hci-nerdz.github.io/docs/hci-nerdz/spatial-web-windows.html[Spatial web windows]
 * Developers: link:https://docs.devcentr.org/dev-centr/latest/architecture/ui-heavy-web-apps.html#spatial-windows-and-lite-palettes[Dev-Centr architecture]
 * xref:division-of-labor.adoc[Division of labor]
+
+ifndef::page-context-active[]
+[.page-context.page-context-footer]
+****
+Original author:: {page-orig-author}
+Latest contributor:: {page-last-author}
+Last updated:: {page-last-edited}
+****
+endif::[]

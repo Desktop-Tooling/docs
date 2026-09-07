@@ -1,5 +1,24 @@
 = Changelog
 :description: Timeline of functional changes to the Desktop Tooling docs hub.
+:page-aliases: desktop-tooling:ROOT:changelog.adoc
+:page-audience: Maintainers and readers tracking Desktop Tooling documentation changes
+:page-usage-context: Documentation hub changelog timeline
+:page-orig-author: Ryan Johnson
+:page-last-author: Cursor agent on behalf of Ryan Johnson
+:page-last-edited: 2026-09-07
+
+ifndef::page-context-active[]
+[.page-context.page-context-lead]
+****
+Audience:: {page-audience}
+****
+endif::[]
+
+== 2026-09-07 — Component catalog
+
+* Renamed the portal component to Home and moved the complete eight-component catalog onto its landing page.
+* Added every catalog project as a first-class Antora component in the curated navigation tree.
+* Adopted the current Facto extension and companion UI defaults.
 
 == 2026-09-02 — OPR boundary note
 
@@ -14,3 +33,12 @@
 * Public Antora hub with Valentus v2, Lunr, search-chat, and KaTeX.
 * Pages for division of labor, principles, and the first catalog.
 * Details: the org `.github` changelog records the same date.
+
+ifndef::page-context-active[]
+[.page-context.page-context-footer]
+****
+Original author:: {page-orig-author}
+Latest contributor:: {page-last-author}
+Last updated:: {page-last-edited}
+****
+endif::[]

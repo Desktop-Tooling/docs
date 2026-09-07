@@ -1,12 +1,18 @@
 site:
   title: Desktop Tooling Docs
   url: https://desktop-tooling.github.io/docs
-  start_page: desktop-tooling::index.adoc
+  start_page: home::index.adoc
   keys:
     header_logo: logo.svg
     site_home_url: https://desktop-tooling.github.io
     site_home_label: Desktop Tooling home
     header_doc_title: Desktop Tooling Docs
+    site_nav_tree: 'true'
+    site_nav_tree_include: home,activity-map-shell,thumbelina,svgesus,explorer-refresh-thumbcache,windows-theme-autochanger,nikon-camera-bridge,desktop-assistant-ai
+    site_nav_tree_order: home,activity-map-shell,thumbelina,svgesus,explorer-refresh-thumbcache,windows-theme-autochanger,nikon-camera-bridge,desktop-assistant-ai
+
+urls:
+  html_extension_style: indexify
 
 antora:
   extensions:
@@ -14,6 +20,11 @@ antora:
       index_latest_only: true
     - require: "@antora-supplemental/antora-search-chat"
     - require: "@antora-supplemental/unversioned-component-urls"
+    - require: "@antora-supplemental/site-nav-tree"
+      include: [home, activity-map-shell, thumbelina, svgesus, explorer-refresh-thumbcache, windows-theme-autochanger, nikon-camera-bridge, desktop-assistant-ai]
+      order: [home, activity-map-shell, thumbelina, svgesus, explorer-refresh-thumbcache, windows-theme-autochanger, nikon-camera-bridge, desktop-assistant-ai]
+    - require: "@antora-supplemental/nav-typology"
+    - require: "@antora-supplemental/nav-typology-diataxis"
     - '@antora-supplemental/build-stack'
 
 content:
@@ -21,7 +32,25 @@ content:
     - url: ./
       branches: HEAD
       start_path: docs
+    - url: https://github.com/Desktop-Tooling/activity-map-shell.git
+      branches: [main]
+      start_path: docs
     - url: https://github.com/Desktop-Tooling/Thumbelina.git
+      branches: [main]
+      start_path: docs
+    - url: https://github.com/Desktop-Tooling/svgesus.git
+      branches: [main]
+      start_path: docs
+    - url: https://github.com/Desktop-Tooling/explorer-refresh-thumbcache.git
+      branches: [main]
+      start_path: docs
+    - url: https://github.com/Desktop-Tooling/Windows-Theme-Autochanger.git
+      branches: [main]
+      start_path: docs
+    - url: https://github.com/Desktop-Tooling/nikon-camera-bridge.git
+      branches: [main]
+      start_path: docs
+    - url: https://github.com/Desktop-Tooling/Desktop-Assistant-AI.git
       branches: [main]
       start_path: docs
 
@@ -32,8 +61,14 @@ ui:
   supplemental_files: ./supplemental-ui
 
 asciidoc:
+  extensions:
+    - asciidoctor-kroki
+    - "@antora-supplemental/page-context"
   attributes:
     stem: latexmath
+    kroki-server-url: https://kroki.io
+    kroki-fetch-diagram: true
+    page-context-active: ''
     experimental: ''
     idprefix: ''
     idseparator: '-'

@@ -1,5 +1,5 @@
-name: desktop-tooling
-title: Desktop Tooling
+name: home
+title: Home
 version: ~
 start_page: ROOT:index.adoc
 nav:
