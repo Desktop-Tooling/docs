@@ -21,6 +21,9 @@ content:
     - url: ./
       branches: HEAD
       start_path: docs
+    - url: ../Thumbdrive-Multiboot
+      branches: HEAD
+      start_path: docs
 
 ui:
   bundle:

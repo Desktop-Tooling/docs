@@ -21,6 +21,9 @@ content:
     - url: ./
       branches: HEAD
       start_path: docs
+    - url: https://github.com/Desktop-Tooling/Thumbdrive-Multiboot.git
+      branches: [main]
+      start_path: docs
 
 ui:
   bundle:

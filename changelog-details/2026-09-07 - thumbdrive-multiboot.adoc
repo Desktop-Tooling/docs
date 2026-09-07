@@ -1,0 +1,8 @@
+= 2026-09-07 — Thumbdrive Multiboot docs
+
+Added the Thumbdrive Multiboot product docs component to the Desktop Tooling hub.
+
+== Added
+
+* Playbook content sources for `Desktop-Tooling/Thumbdrive-Multiboot` (`docs/` start path)
+* Catalog row linking the GitHub repo and Antora component

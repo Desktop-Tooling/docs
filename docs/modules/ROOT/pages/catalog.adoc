@@ -24,4 +24,7 @@ Product docs stay next to the code (`docs/` in each repo) and wire into this hub
 
 | link:https://github.com/Desktop-Tooling/Desktop-Assistant-AI[`Desktop-Assistant-AI`]
 | Desktop helper when the next click is unclear
+
+| link:https://github.com/Desktop-Tooling/Thumbdrive-Multiboot[`Thumbdrive-Multiboot`]
+| Multiboot USB sticks: live ISOs, thin Btrfs installs, or both (xref:thumbdrive-multiboot::index.adoc[docs])
 |===
