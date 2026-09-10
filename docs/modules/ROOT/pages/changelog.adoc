@@ -5,7 +5,7 @@
 :page-usage-context: Documentation hub changelog timeline
 :page-orig-author: Ryan Johnson
 :page-last-author: Cursor agent on behalf of Ryan Johnson
-:page-last-edited: 2026-09-07
+:page-last-edited: 2026-09-10
 
 ifndef::page-context-active[]
 [.page-context.page-context-lead]
@@ -13,6 +13,10 @@ ifndef::page-context-active[]
 Audience:: {page-audience}
 ****
 endif::[]
+
+== 2026-09-10 — Publish robots.txt with sitemap
+
+* Antora `site.robots` now emits `/robots.txt` with an absolute `Sitemap:` line for the production host.
 
 == 2026-09-07 — Brand mark redraw
 
