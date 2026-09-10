@@ -1,6 +1,10 @@
 site:
   title: Desktop Tooling Docs
   url: https://desktop-tooling.github.io/docs
+  robots: |
+    User-agent: *
+    Allow: /
+    Sitemap: https://desktop-tooling.github.io/docs/sitemap.xml
   start_page: home::index.adoc
   keys:
     header_logo: logo.svg

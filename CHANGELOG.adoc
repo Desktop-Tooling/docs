@@ -1,5 +1,9 @@
 = Changelog
 
+== 2026-09-10 -- Publish robots.txt with sitemap
+
+* Antora `site.robots` now emits `/robots.txt` with an absolute `Sitemap:` line for the production host.
+
 == Unreleased
 
 * Bump `@antora-supplemental/antora-search-chat` to `v0.1.4` (hierarchical scope tree). Tag the repo with GitHub topic `antora-search-chat`.
