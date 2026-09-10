@@ -9,7 +9,7 @@
     "format:check": "dprint check"
   },
   "devDependencies": {
-    "@antora-supplemental/antora-search-chat": "github:antora-supplemental/antora-search-chat",
+    "@antora-supplemental/antora-search-chat": "github:antora-supplemental/antora-search-chat#v0.1.4",
     "@antora-supplemental/build-stack": "github:antora-supplemental/build-stack#main",
     "@antora-supplemental/nav-typology": "github:antora-supplemental/nav-typology#main",
     "@antora-supplemental/nav-typology-diataxis": "github:antora-supplemental/nav-typology-diataxis#main",

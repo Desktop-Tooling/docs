@@ -2,6 +2,7 @@
 
 == Unreleased
 
+* Bump `@antora-supplemental/antora-search-chat` to `v0.1.4` (hierarchical scope tree). Tag the repo with GitHub topic `uses-antora-search-chat`.
 * Sync the two-pane desktop window and hex-drive socket glyph from the canonical Desktop Tooling brand archive.
 * Restructure the docs as a curated eight-component Antora site, with Home as the portal and each catalog project as a first-class component.
 * Apply the current Facto defaults: indexified URLs, site navigation tree, nav typology, Kroki, page context, Lunr, math, and build-stack.
