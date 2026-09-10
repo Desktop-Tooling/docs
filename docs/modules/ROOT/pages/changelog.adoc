@@ -14,15 +14,13 @@ Audience:: {page-audience}
 ****
 endif::[]
 
-<<<<<<< HEAD
-== 2026-09-10 — Publish robots.txt with sitemap
-
-* Antora `site.robots` now emits `/robots.txt` with an absolute `Sitemap:` line for the production host.
-=======
 == 2026-09-10 — page-context 0.6.3 author chrome
 
 * Bump `@antora-supplemental/page-context` to `v0.6.3` (linked name, circular avatar, then plain `via {product}`).
->>>>>>> 1c098bb (chore: bump page-context to v0.6.3 for author via chrome.)
+
+== 2026-09-10 — Publish robots.txt with sitemap
+
+* Antora `site.robots` now emits `/robots.txt` with an absolute `Sitemap:` line for the production host.
 
 == 2026-09-07 — Brand mark redraw
 
