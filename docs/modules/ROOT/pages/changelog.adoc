@@ -14,6 +14,10 @@ Audience:: {page-audience}
 ****
 endif::[]
 
+== 2026-09-10 — page-context 0.6.6 author spacing
+
+* Bump `@antora-supplemental/page-context` to `v0.6.6` so the linked name, circular avatar, and `via \{product}` stay separated in the lead byline and footer author cells.
+
 == 2026-09-10 — page-context 0.6.3 author chrome
 
 * Bump `@antora-supplemental/page-context` to `v0.6.3` (linked name, circular avatar, then plain `via {product}`).

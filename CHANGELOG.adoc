@@ -6,6 +6,7 @@
 
 == Unreleased
 
+* Bump `@antora-supplemental/page-context` to `v0.6.6` (flex gap between name, avatar, and `via {product}` in the byline and footer).
 * Bump `@antora-supplemental/page-context` to `v0.6.3` (name → circular avatar → `via {product}` credit chrome).
 * Bump `@antora-supplemental/antora-search-chat` to `v0.1.4` (hierarchical scope tree). Tag the repo with GitHub topic `antora-search-chat`.
 * Sync the two-pane desktop window and hex-drive socket glyph from the canonical Desktop Tooling brand archive.
