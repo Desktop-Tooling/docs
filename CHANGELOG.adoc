@@ -1,5 +1,9 @@
 = Changelog
 
+== 2026-09-14 -- page-edit 0.2.3 DOCTYPE fix
+
+* Pin `@antora-supplemental/page-edit` to `v0.2.3` so View | Edit is not prepended before the HTML DOCTYPE.
+
 == 2026-09-10 -- Publish robots.txt with sitemap
 
 * Antora `site.robots` now emits `/robots.txt` with an absolute `Sitemap:` line for the production host.
