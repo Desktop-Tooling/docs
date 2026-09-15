@@ -5,7 +5,7 @@
 :page-usage-context: Documentation hub changelog timeline
 :page-orig-author: Ryan Johnson
 :page-last-author: Cursor agent on behalf of Ryan Johnson
-:page-last-edited: 2026-09-10
+:page-last-edited: 2026-09-15
 
 ifndef::page-context-active[]
 [.page-context.page-context-lead]
@@ -13,6 +13,10 @@ ifndef::page-context-active[]
 Audience:: {page-audience}
 ****
 endif::[]
+
+== 2026-09-15 — Mast version dropdown shows `~`
+
+* Hub `breadcrumbs` supplemental no longer falls back to **Default** / raw Antora `default` for unversioned components; uses Valentus `adt-version-label` (**Version** on the button, `~` in the menu).
 
 == 2026-09-10 — page-context 0.6.6 author spacing
 
