@@ -24,3 +24,5 @@ build/
 build/**
 MEMORIES.md
 **/MEMORIES.md
+!/.editorconfig
+!/.gitattributes
