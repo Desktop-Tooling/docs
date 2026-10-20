@@ -8,6 +8,7 @@
 !LICENSE
 !package.json
 !pnpm-lock.yaml
+!pnpm-workspace.yaml
 !dprint.jsonc
 !antora-playbook.yml
 !antora-playbook-local.yml
