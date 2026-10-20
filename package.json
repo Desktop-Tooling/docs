@@ -3,24 +3,15 @@
   "private": true,
   "packageManager": "pnpm@10.33.0",
   "scripts": {
+    "build": "antora antora-playbook.yml",
     "docs": "antora antora-playbook.yml",
-    "docs:local": "antora antora-playbook-local.yml",
     "format": "dprint fmt",
     "format:check": "dprint check"
   },
   "devDependencies": {
-    "@antora-supplemental/antora-search-chat": "github:antora-supplemental/antora-search-chat#v0.1.4",
-    "@antora-supplemental/build-stack": "github:antora-supplemental/build-stack#main",
-    "@antora-supplemental/nav-typology": "github:antora-supplemental/nav-typology#main",
-    "@antora-supplemental/nav-typology-diataxis": "github:antora-supplemental/nav-typology-diataxis#main",
-    "@antora-supplemental/page-context": "github:antora-supplemental/page-context#v0.6.6",
-    "@antora-supplemental/page-edit": "github:antora-supplemental/page-edit#v0.2.4",
-    "@antora-supplemental/site-nav-tree": "github:antora-supplemental/site-nav-tree#main",
-    "@antora-supplemental/unversioned-component-urls": "github:antora-supplemental/antora-unversioned-component-urls#v2.1.0",
+    "@antora-supplemental/facto-stack": "github:antora-supplemental/facto-stack#v0.2.34",
     "@antora/cli": "^3.1.14",
-    "@antora/lunr-extension": "1.0.0-alpha.13",
     "@antora/site-generator": "^3.1.14",
-    "asciidoctor-kroki": "^0.18.1",
     "dprint": "^0.49.0"
   },
   "pnpm": {

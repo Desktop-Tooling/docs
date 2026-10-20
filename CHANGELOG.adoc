@@ -1,5 +1,9 @@
 = Changelog
 
+== 2026-10-19 -- Facto compose pack + local content
+
+* `@antora-supplemental/facto-stack` **v0.2.34** (hub profile). Removed `antora-playbook-local.yml`. Hub `.antora-source-id`.
+
 == 2026-09-15 -- page-edit 0.2.4 component-home Source
 
 * Pin `@antora-supplemental/page-edit` to `v0.2.4` so Antora component start pages get the Source | View | Edit row (empty lead shells no longer false-positive on page-context CSS).
